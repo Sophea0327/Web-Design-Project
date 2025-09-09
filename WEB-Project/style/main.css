@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    width: 100%;
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav h4 {
+    display: flex;
+    align-items: center;
+    /* dak oy vea smer knea */
+    gap: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 20px
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+}
+
+header nav img {
+    width: 80px;
+}
+
+header nav div a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    /* text-decoration: none; use to delete underline */
+    color: rgb(0, 0, 0);
+    padding: 16px;
+}
+
+header .auth {
+    display: flex;
+    gap: 10px;
+}
+
+header .auth button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+    .login {
+      background: none;
+      color: #333;
+    }
+    .signup {
+      background: #00b3ad;
+      color: #fff;
+    }
+
+
+/* research bar */
+.search {
+    width: 700px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background-color: #dfdfdf;
+
+}
+
+.search-input {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #dfdfdf;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    background-color: #ecf8ff;
+
+}
+
+.main-text {
+    max-width: 42%;
+}
+
+.main-text h4 {
+    color: #f7b731;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.main-text h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.main-text p {
+    margin-bottom: 25px;
+    color: #2e2e2e;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary {
+    background: #f7b731;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.main img {
+    width: 350px;
+}
