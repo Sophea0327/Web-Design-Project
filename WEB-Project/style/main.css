@@ -92,7 +92,7 @@ main {
 }
 
 .main {
-    width: 100%;
+    width: 90%;
     height: 60vh;
     display: flex;
     justify-content: space-between;
@@ -147,7 +147,7 @@ main {
 
 
 /* Section Container */
-section{
+section {
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -181,15 +181,16 @@ section{
     border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 60px;
-    max-width: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    width: 98%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .card-section {
@@ -200,7 +201,7 @@ section{
     background-color: #fff;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     text-align: center;
-    align-items: center;
+
 }
 
 .card-section h3 {
@@ -247,4 +248,145 @@ section{
     border: none;
     background: transparent;
     width: 300px;
+}
+
+
+/* Trending-Khmer */
+article {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.trending-kh {
+    background-color: #f7f7f7;
+    width: 90%;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #0d1117;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.arrow-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.books-grid {
+    display: flex;
+    width: 160px;
+    gap: 20px;
+}
+
+.book-card {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-2px);
+}
+
+.book-image {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.book-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.sold-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #FFD700;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.author {
+    color: #0d1117;
+    font-size: 16px;
+    margin: 12px 0 4px;
+    font-weight: 500;
+}
+
+.title-book {
+    color: #666;
+    font-size: 14px;
+    margin: 0 0 8px;
+}
+
+.price-book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.price {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cart-btn {
+    background: #e9ecef;
+    color: #495057;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.more-btn {
+    background: #f8f9fa;
+    color: #6c757d;
+    border: 1px solid #dee2e6;
+    padding: 4px 8px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 8px;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+.more-btn:hover {
+    background: #e9ecef;
 }
