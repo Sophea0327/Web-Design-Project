@@ -147,66 +147,79 @@ main {
 
 
 /* Section Container */
-    .library-section {
-        padding: 60px 20px;
-    }
 
-    .library-section h2 {
-        font-size: 32px;
-        margin-bottom: 10px;
-        color: #333;
-    }
 
-    .library-section p {
-        font-size: 16px;
-        color: #555;
-        margin-bottom: 20px;
-    }
+section{
+    width: 80%;
+    height: 40vh;
+    background-color: #5d60ff;
+}
 
-    .library-section .main-btn {
-        background-color: #5d60ff;
-        color: #fff;
-        border: none;
-        padding: 12px 25px;
-        border-radius: 25px;
-        font-size: 16px;
-        cursor: pointer;
-        margin-bottom: 40px;
-    }
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    .card-section {
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 25px;
-        background-color: #fff;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-        text-align: center;
-    }
-    .card-section h3 {
-        font-size: 20px;
-        color: #00b3ad;
-        margin-bottom: 10px;
-    }
-    .card-section p {
-        font-size: 14px;
-        color: #444;
-        margin-bottom: 20px;
-    }
-    .card-section button {
-        background-color: #5d60ff;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 20px;
-        font-size: 14px;
-        cursor: pointer;
-    }
+.library-section {
+    padding: 60px 20px;
+}
+
+.library-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.library-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.library-section .main-btn {
+    background-color: #5d60ff;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-section {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.card-section h3 {
+    font-size: 20px;
+    color: #00b3ad;
+    margin-bottom: 10px;
+}
+
+.card-section p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.card-section button {
+    background-color: #5d60ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
 
 
 /* research bar */
