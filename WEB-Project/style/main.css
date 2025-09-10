@@ -259,6 +259,11 @@ article {
     margin-bottom: 30px;
 }
 
+article .trending-kh h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .trending-kh {
     background-color: #f7f7f7;
     width: 90%;
@@ -302,8 +307,9 @@ article {
 
 .book-card {
     background: white;
+    width: 1000px;
     border-radius: 12px;
-    padding: 16px;
+    padding: 24px;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
@@ -390,3 +396,5 @@ article {
 .more-btn:hover {
     background: #e9ecef;
 }
+
+
